@@ -84,7 +84,7 @@ a:hover{
 }
 
 button.toggler-menu{
-    background-color: none;
+    background: none;
     border: none;
 }
 
@@ -96,11 +96,12 @@ button.toggler-menu{
     width: 100%;
     z-index: 11;
 }
+
 .toggler-menu{
     width: 40px;
     height: 40px;
     position: relative;
-    margin:  0;
+    margin: 0;
     border-radius: 0;
     padding: 0;
     margin-left: 15px;
@@ -108,7 +109,6 @@ button.toggler-menu{
     border: none;
     margin-left: auto;
 }
-
 .toggler-menu span{
     position: absolute;
     top: 0;
@@ -122,8 +122,19 @@ button.toggler-menu{
     color: white;
 }
 
-@media (min-widht: 767px){
-    
-}
+@media (min-windth: 767px){
+    .mob-header{
+        display: block;
+    }
 
+    .header-left{
+        transition: ease all 0.35s;
+        left: -200px;
+        z-index: 222;
+    }
+    .header-left.menu-open{
+        left: 0;
+    }
+
+}
 
