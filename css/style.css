@@ -1,32 +1,26 @@
-html{
-    overflow-x: hidden;
-}
-
-.navbar-brand a img{
-    width: 250px;
-    height: auto;
-}
 body{
     background: #10101a;
     font-family: sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
-img{
-    max-width: 100%;
-}
 
+ 
 *{
     outline: none !important;
 }
 
 a{
     color: #ffc107;
-    text-decoration: none;
 }
+
 a:hover{
     color: #ffc107;
+    text-decoration: none;
 }
+
+
+
 .header-left{
     width: 80px;
     position: fixed;
@@ -34,9 +28,10 @@ a:hover{
     top: 0;
     background: #0c0c14;
     border-right: 1px solid rgba(11,11,19,0.1);
-    z-index: 999999;
-    text-align: center;
+    z-index: 99999;
 }
+
+
 
 .header-left .top a{
     background: #ffc107;
@@ -45,34 +40,37 @@ a:hover{
     text-decoration: none;
     font-size: 40px;
     height: 80px;
-    padding: 10px;
+    width: 80px;
     line-height: 80px;
     display: inline-block;
+    vertical-align: top;
     text-align: center;
-   
     
 }
 
 .header-left .nav-menu{
     padding-top: 45px;
     padding-bottom: 45px;
-    
 }
+
 
 .nav-menu li{
     width: 100%;
 }
+
+
 .nav-menu li+li{
-    border-top: 1px solid rgba(225,225,225,0.1);
+    border-top: 1px solid rgba(255,255,255,0.1);
 }
+
+
 .nav-link{
     margin: 0;
     padding: 10px 0;
-    color:  white;
+    color: white;
     text-decoration: none;
     transition: ease all 0.35s;
     text-align: center;
-
 }
 
 .nav-link i{
@@ -80,13 +78,15 @@ a:hover{
     width: 40px;
     height: 40px;
     line-height: 40px;
-    text-align: center;
+   
 }
+
 
 button.toggler-menu{
     background: none;
     border: none;
 }
+
 
 .mob-header{
     padding: 15px;
@@ -96,6 +96,7 @@ button.toggler-menu{
     width: 100%;
     z-index: 11;
 }
+
 
 .toggler-menu{
     width: 40px;
@@ -109,6 +110,8 @@ button.toggler-menu{
     border: none;
     margin-left: auto;
 }
+
+
 .toggler-menu span{
     position: absolute;
     top: 0;
@@ -118,23 +121,26 @@ button.toggler-menu{
     width: 25px;
     height: 2px;
     margin: auto;
-    background: #ffc107 !important;
+    background: #fff;
     color: white;
+    box-shadow: 0px -8px 0 0 currentColor, 0px 8px 0 0 currentColor;
 }
 
-@media (min-windth: 767px){
+
+@media (max-width: 767px){
     .mob-header{
         display: block;
     }
-
+    
+    
     .header-left{
         transition: ease all 0.35s;
         left: -200px;
         z-index: 222;
     }
+    
     .header-left.menu-open{
         left: 0;
     }
-
+    
 }
-
