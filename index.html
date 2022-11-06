@@ -96,8 +96,112 @@
                    <i class="fa fa-volume-control-phone"></i>
                </a>
            </li>             
-       </ul>         
+       </ul>   
+       
+       
    </header>
+
+   <main>
+    <section class="banner wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="1s" id="home" pt-page pt-page-1>
+        <div class="top-fixed d-flex">
+            <div class="info">
+                <label>+91 5545553532</label>&nbsp;
+                <label>hifidesigners@gmail.com</label>
+            </div>
+            <div class="social">
+                <a href="">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-behance"></i>
+                    <i class="fa fa-dribbble"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row full-screen align-items-center">
+                <div class="col-lg-7">
+                    <div class="box">
+                        <h6>Hello, My Name is</h6>
+                        <h1>Robson Paiva</h1>
+                        <p class="lead">
+                            ESTUDANTE | UX/UI Designer | Freelancer
+                        </p>
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tempore suscipit ea, assumenda quos obcaecati necessitatibus beatae veniam nisi illum.
+                        </p>
+                        <div class="btn-bar">
+                            <a href="">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="me" style="background-image:url(img/9.png)"></div>
+    </section>
+</main>
+     
+   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+   <script src="scrolltosmooth.pkgd.min.js"></script>
+ <script src="wow.min.js"></script>
+ <script src="jquery.waypoints.min.js"></script>
+ 
+ <script src="circle-progress.js"></script>     
+
+ <script src="jquery.cubeportfolio.min.js"></script>    
+
+   <script src="jquery.prettyPhoto.js"></script>
+  
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.0/jquery-migrate.min.js"></script>
+ <script src="modernizr.custom.63321.js"></script>
+ <script src="jquery.stapel.js"></script>
+
+   <script>
+ 
+       $(window).on('load', function(){
+           $('#preloader').delay(2050).fadeOut('slow');
+           $('body').delay(3850).css({'overflow':'visible'});
+       });
+ 
+ 
+ 
+   </script>
+   
+   
+   
+   
+   
+    <script>
+          new WOW().init();
+     </script>
+     
+     
+ 
+ <script>
+ 
+ (function($){
+     "use strict";
+      var NAY = {};
+     NAY.MenuTogglerClose = function(){
+         $(".toggler-menu").on('click', function(){
+             $('.header-left').stop().toggleClass('menu-open');
+         });
+         
+         $('.header-left a').on('click', function(){
+             var toggle = $('.toggler-menu');
+         });
+     }
+     
+     $(document).on("ready", function(){
+         NAY.MenuTogglerClose()
+     });
+ })(jQuery);
+  
+ </script>
     
 </body>
+
+
 </html>

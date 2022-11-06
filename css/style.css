@@ -144,3 +144,87 @@ button.toggler-menu{
     }
     
 }
+
+
+
+.banner{
+    position: relative;
+    overflow: hidden;
+}
+
+.banner:after{
+    content: "";
+    position: absolute;
+    right: -20vh;
+    bottom: -20vh;
+    width: 120vh;
+    height: 120vh;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.1);
+    z-index: -1;
+}
+
+
+.top-fixed{
+    position: absolute;
+    padding: 30px 50px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.top-fixed .info{
+    margin-left: 190px;
+    
+}
+ 
+
+.info label{
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.info label + label{
+    
+}
+
+.social{
+    margin-left: auto;
+    font-size: 20px;
+    
+}
+
+.social a i{
+    margin-right: 10px;
+    color: white;
+    width: 43px;
+    height: 43px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.banner .full-screen{
+    min-height: 100vh;
+}
+ 
+
+
+.banner .me{
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    height: 100%;
+    background-size: cover;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: top left;
+
+}
