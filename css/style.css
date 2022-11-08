@@ -332,12 +332,18 @@ button.toggler-menu {
         width: 80vw;
     }
 }
+#about{
+    font-family: 'Poppins',sans-serif;
+}
 
 .about-me img{
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid white;
-    position: absolute;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: -30px;
 }
 
 .about-me .social-icons{
@@ -347,43 +353,57 @@ button.toggler-menu {
     right: 0;
 }
 
+
 .about-me .social-icons a{
     width: 45px;
     height: 45px;
     line-height: 41px;
     background: #0b0b13;
     border: 2px solid white;
-    color: #0b0b15;
+    color: #fff;
     text-align: center;
     border-radius: 50%;
     position: relative;
     margin: 0 5px;
     transition: ease all 0.35s;
     transform: scale(1);
+    margin-top: -150px;
+    
 }
 
+
+
 .social-icons a i{
-     line-height: inherit;
+    line-height: inherit;
 }
+
 .social-icons a:nth-child(1){
-    top: -25px
+   top: -25px;
 }
+
+
+
 .social-icons a:nth-child(2){
-    top: -8px
+   top: -8px;
 }
+
+
 .social-icons a:nth-child(4){
-    top: -8px
+   top: -8px;
 }
+
 .social-icons a:nth-child(5){
-    top: -25px
+   top: -25px;
 }
+
+
 .social-icons a:hover{
     transform: scale(1.1);
     background: #ff9301;
     color: white;
 }
 
-.about-me .info{
+ .info{
     text-align: center;
     padding-top: 40px;
     color: white;
@@ -391,12 +411,17 @@ button.toggler-menu {
     margin-left: 7%;
 }
 
-.about-me .info h3{
+.info h3{
     font-weight: 400;
     font-size: 30px;
+    
 }
 
-.about-me .info p{
-    font-weight: 400;
-    font-size: 30px;
+
+
+
+ .info p{
+    margin: 0;
+    font-size: 16px;
+    
 }
