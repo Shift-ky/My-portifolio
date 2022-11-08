@@ -332,3 +332,71 @@ button.toggler-menu {
         width: 80vw;
     }
 }
+
+.about-me img{
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+    position: absolute;
+}
+
+.about-me .social-icons{
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+}
+
+.about-me .social-icons a{
+    width: 45px;
+    height: 45px;
+    line-height: 41px;
+    background: #0b0b13;
+    border: 2px solid white;
+    color: #0b0b15;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 5px;
+    transition: ease all 0.35s;
+    transform: scale(1);
+}
+
+.social-icons a i{
+     line-height: inherit;
+}
+.social-icons a:nth-child(1){
+    top: -25px
+}
+.social-icons a:nth-child(2){
+    top: -8px
+}
+.social-icons a:nth-child(4){
+    top: -8px
+}
+.social-icons a:nth-child(5){
+    top: -25px
+}
+.social-icons a:hover{
+    transform: scale(1.1);
+    background: #ff9301;
+    color: white;
+}
+
+.about-me .info{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    width: 300px;
+    margin-left: 7%;
+}
+
+.about-me .info h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.about-me .info p{
+    font-weight: 400;
+    font-size: 30px;
+}
