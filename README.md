@@ -2,7 +2,7 @@
 
 This is a portfolio template that I'm learning in the front-end and UI designer course.
 
-![image](https://github.com/Shift-ky/My-portifolio/blob/main/imagens/ezgif.com-gif-maker.gif?raw=true))
+![image](https://github.com/Shift-ky/My-portifolio/blob/main/imagens/20221113_124436.gif?raw=true))
 
 ## Technology
 * HTML5
