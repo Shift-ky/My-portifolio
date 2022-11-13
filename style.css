@@ -29,8 +29,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: white;
-    z-index: 999999999;
+    background-color: rgb(0, 0, 0);
+    z-index: 9999999999;
 }
 
 
@@ -40,7 +40,7 @@
     position: absolute;
     left: 0%;
     top: 0%;
-    background-image: url(imagens/ok.gif);
+    background-image: url(imagens/loading.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
@@ -490,7 +490,8 @@ button.toggler-menu{
     margin: 0 5px;
     transition: ease all 0.35s;
     transform: scale(1);
-    margin-top: -150px;
+    margin-top: -170px;
+    margin-bottom: 20px;
     
 }
 
@@ -511,11 +512,11 @@ button.toggler-menu{
 }
 
 
-.social-icons a:nth-child(4){
-   top: -8px;
+.social-icons a:nth-child(3){
+   top: -25px;
 }
 
-.social-icons a:nth-child(5){
+.social-icons a:nth-child(4){
    top: -25px;
 }
 
@@ -532,6 +533,7 @@ button.toggler-menu{
     color: white;
     width: 300px;
     margin-left: 7%;
+    margin-top: 20px;
 }
 
 .info h3{
