@@ -14,7 +14,7 @@
 
 
 ::-webkit-scrollbar-thumb{
-    background: #3bb78f;
+    background:#970FF2;
     width: 0;
     height: 15%;
     transition: 0.5s ease;
@@ -73,14 +73,14 @@ html{
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: #ffc107;
+  background: #970FF2;
   position: absolute;
   top: -8px;
   left: -15px;
   z-index: -1;
 }
 .theme-light .title h3:after {
-  background: rgba(255, 147, 1, 0.5);
+  background: rgba(255, 1, 1, 0.5);
 }
  
         
@@ -104,11 +104,11 @@ body{
 }
 
 a{
-    color: #ffc107;
+    color: #970FF2;
 }
 
 a:hover{
-    color: #ffc107;
+    color:#970FF2;
     text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ a:hover{
 
 
 .header-left .top a{
-    background: #ffc107;
+    background: #970FF2;
     color: white;
     font-weight: 600;
     text-decoration: none;
@@ -199,7 +199,7 @@ button.toggler-menu{
     border-radius: 0;
     padding: 0;
     margin-left: 15px;
-    background: #ffc107;
+    background: #970FF2;
     border: none;
     margin-left: auto;
 }
@@ -293,7 +293,7 @@ button.toggler-menu{
 
 .social a i{
     margin-right: 10px;
-    color: white;
+    color: #970FF2;
     width: 43px;
     height: 43px;
     border-radius: 50px;
@@ -301,6 +301,10 @@ button.toggler-menu{
     padding: 10px;
     line-height: 20px;
     text-align: center;
+}
+.social a i:hover{
+    color: #ffff;
+    border: 2px solid #970FF2;
 }
 
 .banner .full-screen{
@@ -518,7 +522,7 @@ button.toggler-menu{
 
 .social-icons a:hover{
     transform: scale(1.1);
-    background: #ff9301;
+    background: #970FF2;
     color: white;
 }
 
@@ -611,8 +615,8 @@ button.toggler-menu{
     height: 200px;
     border-radius: 50%;
     z-index: -2;
-    background-color: #f5d020;
-    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+    background-color: #970FF2;
+    background-image: linear-gradient(315deg, #970FF2 0%, #7A6FBF 74%);
     transition: cubic-bezier(0.39, 0.58, 0.57, 1) all 0.15s;
 }
 
@@ -914,7 +918,7 @@ button.toggler-menu{
 
 
 .Hover a.prePhoto{
-    background: #de3c2f none repeat scroll 0 0;
+    background: #7A6FBF none repeat scroll 0 0;
     border-radius: 50%;
     bottom: 0;
     color: white;
@@ -974,7 +978,8 @@ button.toggler-menu{
 
 
 .Hover a.details:hover{
-    color: #de3c2f;
+    color:#970FF2;
+;
 }
 
 .Btn{
@@ -983,7 +988,7 @@ button.toggler-menu{
 
 
 .viewBtn{
-    background: #de3c2f none repeat scroll 0 0;
+    background: #970FF2 none repeat scroll 0 0;
     display: table;
     height: 200px;
     left: 4px;
@@ -1157,7 +1162,7 @@ button.toggler-menu{
 
 
 .mh-progress path:nth-child(2){
-    stroke:#f5d020 !important;
+    stroke:#970FF2 !important;
     stroke-width: 5px;
     
 }
@@ -1207,7 +1212,7 @@ button.toggler-menu{
 .contact-info li i{
     width: 30px;
     text-align: center;
-    color: #ff9301;
+    color: #970FF2;
     font-size: 22px;
 }
 
@@ -1291,7 +1296,7 @@ button.toggler-menu{
 
 
 .footer .nav a:hover{
-    color: #ff9301;
+    color: #970FF2;
 }
 
 .footer p{
@@ -1299,13 +1304,3 @@ button.toggler-menu{
     font-stretch: 14px;
     margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
