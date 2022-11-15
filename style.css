@@ -578,9 +578,9 @@ button.toggler-menu{
 
 
 .separated{
-    background-image: url(border.png);
-    padding-top: 80px;
-    padding-bottom: 80px;
+    background-image: url(imagens/border.png);
+    padding-top: 70px;
+    padding-bottom: 40px;
     background-repeat: repeat-x;
     background-size: auto 6px;
     background-position: center;
